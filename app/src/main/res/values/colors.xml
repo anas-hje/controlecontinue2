@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fond_ecran">#0DEC84</color>
     <color name="fond_titre">#4CAF50</color>
-    <color name="btn_color">#3A4BB7</color>
+    <color name="btn_color">#FFFFFF</color>
     <color name="fond_label">#1EB0F4</color>
     <color name="fond_btn_pressed">#93FFF2</color>
     <color name="fond_btn_enabled">#A10F5DE4</color>
