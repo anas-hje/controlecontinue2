@@ -1,8 +1,6 @@
 <resources>
-    <string name="app_name">controlecontinue2</string>
-    <string name="menu">Menu Generale</string>
+    <string name="app_name">Menu Generale</string>
     <string name="btn1">Ajouter Une Entreprise </string>
     <string name="btn2">Editer Une Entreprise </string>
     <string name="btn3">Lister Une Entreprise </string>
-
 </resources>

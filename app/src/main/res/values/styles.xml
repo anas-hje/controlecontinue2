@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="BasestyleTextView" parent="android:Widget.TextView">
+    <style name="stylebutton" parent="android:Widget.TextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">@dimen/margin_titre</item>
-        <item name="android:layout_marginTop">@dimen/margintop_btn</item>
-        <item name="android:padding">@dimen/padding_titre</item>
+        <item name="android:layout_margin">@dimen/margin_text</item>
+        <item name="android:padding">@dimen/padding_text</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">@dimen/text_res</item>
+        <item name="android:textSize">@dimen/text_taille</item>
         <item name="android:textColor">@color/btn_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="borderWidth">@dimen/border_btn</item>
+    </style>
+
+    <style name="styletextview">
+        <item name="android:background">@color/fond_text</item>
+        <item name="android:layout_margin">@dimen/margin_text</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">@dimen/padding_text</item>
+        <item name="android:textSize">@dimen/text_taille</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="BasestyleTextView.TitreStyle">
-        <item name="android:background">@color/fond_titre</item>
+
+
+    <style name="buttonavtivities">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_text</item>
+        <item name="android:padding">@dimen/padding_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_taille</item>
+        <item name="android:textColor">@color/colortextbuttonactivities</item>
+        <item name="android:background">@color/colorACtivitiesButtons</item>
+        <item name="android:textStyle">bold</item>
+        <item name="borderWidth">@dimen/border_btn</item>
     </style>
 
-    <style name="BasestyleTextView.TResStyle">
 
-        <item name="android:layout_marginTop">@dimen/marginTop_res</item>
-    </style>
 
-    <style name="EditTextStyle">
-
-    </style>
-
-    <style name="ButtonStyle">
-
-    </style>
-
-    <style name="RadioButtonStyle">
-
-    </style>
 
 </resources>

@@ -8,13 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fond_ecran">#0DEC84</color>
-    <color name="fond_titre">#4CAF50</color>
+    <color name="fond_text">#C2F3C4</color>
     <color name="btn_color">#FFFFFF</color>
-    <color name="fond_label">#1EB0F4</color>
     <color name="fond_btn_pressed">#93FFF2</color>
     <color name="fond_btn_enabled">#A10F5DE4</color>
     <color name="border_btn_enabled">#0492A5</color>
     <color name="border_btn_pressed">#364E44</color>
+    <color name="colorACtivitiesButtons">#8AFF02</color>
+    <color name="colortextbuttonactivities">FF000000</color>
 
 
 </resources>
