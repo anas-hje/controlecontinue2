@@ -11,6 +11,6 @@
     <dimen name="padding_btn">5dp</dimen>
     <dimen name="padding_textView">2dp</dimen>
     <dimen name="margin_btn">20dp</dimen>
-
+    <dimen name="textsz">20sp</dimen>
 
 </resources>

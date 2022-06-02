@@ -15,7 +15,7 @@
     <color name="border_btn_enabled">#0492A5</color>
     <color name="border_btn_pressed">#364E44</color>
     <color name="colorACtivitiesButtons">#8AFF02</color>
-    <color name="colortextbuttonactivities">FF000000</color>
+    <color name="colortextbuttonactivities">#FF000000</color>
 
 
 </resources>

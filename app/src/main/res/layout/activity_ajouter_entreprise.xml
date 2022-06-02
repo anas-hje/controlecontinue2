@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ajouterEntreprise">
+    <EditText
+        style="@style/styletextview"
+        android:hint="Tapez votre Raison social.."
+        android:id="@+id/txtraison"
+        />
+    <EditText
+        android:layout_below="@+id/txtraison"
+        style="@style/styletextview"
+        android:hint="Tapez votre Adresse.."
+        android:id="@+id/txtadresse"/>
+    <EditText
+        android:layout_below="@+id/txtadresse"
+        style="@style/styletextview"
+        android:hint="Tapez votre Capital.."
+        android:id="@+id/txtcapital"/>
+    <Button
+        style="@style/buttonactivities"
+        android:layout_below="@+id/txtcapital"
+        android:text="@string/btnaEnregistrer"
+        android:id="@+id/enregistrer"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        style="@style/buttonactivities"
+        android:layout_below="@+id/txtcapital"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="53dp"
+        android:layout_toRightOf="@+id/enregistrer"
+        android:text="@string/btnaAnnuler" android:id="@+id/annuler"/>
+
+</RelativeLayout>
