@@ -24,7 +24,8 @@
         style="@style/buttonactivities"
         android:layout_below="@+id/txtcapital"
         android:text="@string/btnaEnregistrer"
-        android:id="@+id/enregistrer"/>
+        android:id="@+id/enregistrer"
+        android:onClick="Enregistrer"/>
 
     <Button
         style="@style/buttonactivities"
@@ -32,6 +33,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="53dp"
         android:layout_toRightOf="@+id/enregistrer"
-        android:text="@string/btnaAnnuler" android:id="@+id/annuler"/>
+        android:text="@string/btnaAnnuler"
+        android:id="@+id/annuler"
+        android:onClick="retourner"/>
 
 </RelativeLayout>
