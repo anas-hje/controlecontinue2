@@ -45,4 +45,8 @@ public class ajouterEntreprise extends AppCompatActivity {
                 Toast.makeText(this, "Insertion reussie", Toast.LENGTH_SHORT).show();
         }
     }
+
+
+    public void modifier(View view) {
+    }
 }

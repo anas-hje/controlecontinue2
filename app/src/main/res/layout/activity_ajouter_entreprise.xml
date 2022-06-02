@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ajouterEntreprise">
+    tools:context=".ajouterEntreprise"
+    android:background="@color/fond_ecran">
     <EditText
         style="@style/styletextview"
-        android:hint="Tapez votre Raison social.."
+        android:hint="@string/hintraisonsocial"
         android:id="@+id/txtraison"
         />
     <EditText
         android:layout_below="@+id/txtraison"
         style="@style/styletextview"
-        android:hint="Tapez votre Adresse.."
+        android:hint="@string/hintrAdresse"
         android:id="@+id/txtadresse"/>
     <EditText
         android:layout_below="@+id/txtadresse"
         style="@style/styletextview"
-        android:hint="Tapez votre Capital.."
+        android:hint="@string/hintcapital"
         android:id="@+id/txtcapital"/>
     <Button
         style="@style/buttonactivities"

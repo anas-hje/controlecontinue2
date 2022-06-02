@@ -5,4 +5,9 @@
     <string name="btn3">Lister Une Entreprise </string>
     <string name="btnaEnregistrer">Enregistrer</string>
     <string name="btnaAnnuler">Annuler</string>
+    <string name="btnmodifier">Modifier</string>
+    <string name="btnsupprimer">Supprimer</string>
+    <string name="hintraisonsocial">Tapez votre Raison social..</string>
+    <string name="hintrAdresse">Tapez votre Adresse..</string>
+    <string name="hintcapital">Tapez votre Capital..</string>
 </resources>

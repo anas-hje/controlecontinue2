@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditerEnreprise">
+    tools:context=".EditerEnreprise"
+    android:background="@color/fond_ecran">
+     <Spinner
+         android:id="@+id/spp"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         style="@style/styletextview"/>
+    <EditText
+        android:layout_below="@+id/spp"
+        style="@style/styletextview"
+        android:hint="@string/hintraisonsocial"
+        android:id="@+id/txtraisonM"
+        />
+    <EditText
+        android:layout_below="@+id/txtraisonM"
+        style="@style/styletextview"
+        android:hint="@string/hintrAdresse"
+        android:id="@+id/txtadresseM"/>
+    <EditText
+        android:layout_below="@+id/txtadresseM"
+        style="@style/styletextview"
+        android:hint="@string/hintcapital"
+        android:id="@+id/txtcapitalM"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/Modifier"
+        style="@style/buttonactivities"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcapitalM"
+        android:onClick="modifier"
+        android:text="@string/btnmodifier" />
+
+    <Button
+        android:id="@+id/annuler"
+        style="@style/buttonactivities"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcapitalM"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginEnd="53dp"
+        android:layout_toRightOf="@+id/Modifier"
+        android:onClick="supprimer"
+        android:text="@string/btnsupprimer" />
+
+</RelativeLayout>
