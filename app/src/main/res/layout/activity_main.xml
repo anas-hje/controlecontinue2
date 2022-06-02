@@ -11,18 +11,21 @@
         style="@style/BasestyleTextView.TitreStyle"
         android:text="@string/btn1"
         android:id="@+id/ajouter"
+        android:onClick="afficherfrmajouter"
         />
 
     <Button
         style="@style/BasestyleTextView.TitreStyle"
         android:text="@string/btn2"
-        android:layout_centerVertical="true" android:id="@+id/editer"/>
+        android:layout_centerVertical="true" android:id="@+id/editer"
+        android:onClick="aficherfrmEditer"/>
 
     <Button
         android:layout_below="@+id/editer"
         style="@style/BasestyleTextView.TitreStyle"
         android:text="@string/btn3"
         android:id="@+id/lister"
+        android:onClick="afficherfrmlister"
 
         />
 
